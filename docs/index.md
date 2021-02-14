@@ -1,18 +1,41 @@
-# Edinburgh Prelude
-## NOTE
-This is where students will be able to go to download and install the alternative Haskell Prelude for use by default. It is a **skeleton** only and is not intended for use until this note is removed. - 5 Feb 2021
+# Inf1A-FP Haskell Installation
 
-### Stack [Installation/Home](https://docs.haskellstack.org/en/stable/README/) (UNTESTED)
+## Installing Haskell
+You may already have Haskell! That's excellent, you can skip right down to installing EPrelude. To check, open a terminal and type "`ghci --version`" to see if you have "`ghci`" already installed on your computer. If not, install by following the link below and picking the **correct version** for your OS (Windows, OS X for Mac, Linux). Choose the **minimal installation**.:
+[](https://www.haskell.org/downloads#minimal)
+After following those instructions, congratulations! You have Haskell.
 
-### EPrelude installation, general: (UNTESTED)
-1. Install stack as above.
-2. Run `stack install [Package-Name-Undefined]`
-3. At the top of files you wish to use this for, include the following pragma: `{-# LANGUAGE NoImplicitPrelude #-}`
-4. Add `import EPrelude` to the import list of modules within that file. All Prelude typeclasses and methods aside from those explicitly removed or modified are now available.
+## Installing EPrelude
+With Haskell installed, you'll have a copy of Prelude, which is Haskell's standard library of useful functions. However, though Prelude is powerful, it is also complex. EPrelude is an alternative version of Prelude, containing simple and straightforward definitions of the standard functions with a restricted set of available types. It also automatically pretty-prints data structures, making it easier to read command-line output.
 
-### EPrelude installation, stack project/dependencies system: ([source](https://docs.haskellstack.org/en/stable/GUIDE/)) (UNTESTED)
-1. Install stack as above.
-2. Create a new project with `stack new`.
-3. Open the newly created `package.yaml` file.
-4. Under 'dependencies' add a line with `-e-prelude`.
-5. Under 'default-extensions' add a line with `NoImplicitPrelude`. All Prelude typeclasses and methods aside from those explicitly removed or modified are now available within this stack project.
+### Mac/(Possibly Linux) Instructions:
+To install EPrelude, follow the link below to get the zip file.
+[EPrelude](https://github.com/MatthewMarmalade/e-prelude/archive/main.zip)
+You should download a file named `e-prelude-master.zip`. Unzip this file, and navigate a terminal to the `e-prelude-main` folder (likely within your Downloads folder).
+At the terminal, within the folder, run the command below:
+`$ sudo ./install.sh` *(This command will require root access.)*
+If it succeeded without any errors, you should be done!
+As a test, run the following command from anywhere:
+`$ ehci`
+Feel free to delete the `e-prelude-master` and `.zip` file. However, if you ever want to uninstall EPrelude, you can navigate to the same file (or re-download it if you've deleted it) and run the command below:
+`$ sudo ./uninstall.sh` *(This command will require root access.)*
+*-Note: Linux (and specifically DICE machine) hasn't been tested, though as the scripts are all UNIX-based there shouldn't be difficulties -MM 14 Feb 2021*
+
+### Windows Instructions:
+*-Note: In progress -MM 14 Feb 2021
+
+## Installing Required Packages
+Several Tutorials will require the use of additional Haskell packages. There are several options for downloading these packages, detailed below.
+
+### Cabal
+Cabal is a package manager for Haskell. It is probably the most straightforward method, but students have had problems with it before. If there any issues, consider the alternative methods. To install the Haskell packages we need, run the commands below from a terminal:
+`$ cabal update`
+`$ cabal install QuickCheck`
+
+### Stack
+Stack is a general workspace/project manager for Haskell that is also capable of managing packages and dependencies of projects. Its usage is more complicated, though it may be more reliable than cabal.
+*-Note: In progress -MM 14 Feb 2021*
+
+### Direct Dependency Download
+If the above truly aren't working, here is a way to directly download the modules in question so you can complete the tutorials. In general, the files you download will need to be placed in the same file as your tutorial file to be successfully imported.
+*-Note: Potential option; has yet to be fully explored. -MM 14 Feb 2021
