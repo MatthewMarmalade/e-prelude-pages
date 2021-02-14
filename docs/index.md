@@ -28,7 +28,8 @@ Several Tutorials will require the use of additional Haskell packages. There are
 ### Cabal
 Cabal is a package manager for Haskell. It is probably the most straightforward method, but students have had problems with it before. If there any issues, consider the alternative methods. To install the Haskell packages we need, run the commands below from a terminal:  
 `$ cabal update`  
-`$ cabal install QuickCheck`
+`$ cabal install QuickCheck`  
+`$ cabal install HTTPS`
 
 ### Stack
 Stack is a general workspace/project manager for Haskell that is also capable of managing packages and dependencies of projects. Its usage is more complicated, though it may be more reliable than cabal.
