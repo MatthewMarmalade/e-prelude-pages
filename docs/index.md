@@ -1,7 +1,7 @@
 # Inf1A-FP Haskell Installation
 
 ## Installing Haskell
-You may already have Haskell! That's excellent, you can skip right down to installing EPrelude. To check, open a terminal and type "`ghci --version`" to see if you have "`ghci`" already installed on your computer. If not, install by following the link below and picking the **correct version** for your OS (Windows, OS X for Mac, Linux). Choose the **minimal installation**.:  
+You may already have Haskell! That's excellent, you can skip right down to installing EPrelude. To check, open a terminal and type "`ghci --version`" to see if you have "`ghci`" already installed on your computer. If not, install by following the link below and picking the **correct version** for your OS (Windows, OS X for Mac, Linux). Choose the **minimal installation**.  
 [https://www.haskell.org/downloads#minimal](https://www.haskell.org/downloads#minimal)  
 After following those instructions, congratulations! You have Haskell.
 
