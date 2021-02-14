@@ -20,7 +20,7 @@ It should open up an interactive REPL with EPrelude loaded. Feel free to delete 
 *-Note: Linux (and specifically DICE machine) hasn't been tested, though as the scripts are all UNIX-based there shouldn't be difficulties -MM 14 Feb 2021*
 
 ### Windows Instructions:
-*-Note: In progress -MM 14 Feb 2021
+*-Note: In progress -MM 14 Feb 2021*
 
 ## Installing Required Packages
 Several Tutorials will require the use of additional Haskell packages. There are several options for downloading these packages, detailed below.
@@ -38,4 +38,4 @@ Stack is a general workspace/project manager for Haskell that is also capable of
 ### Direct Dependency Download
 If the above truly aren't working, here is a way to directly download the modules in question so you can complete the tutorials. In general, the files you download will need to be placed in the same file as your tutorial file to be successfully imported.
 
-*-Note: Potential option; has yet to be fully explored. -MM 14 Feb 2021
+*-Note: Potential option; has yet to be fully explored. -MM 14 Feb 2021*
