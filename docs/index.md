@@ -1,8 +1,7 @@
 # Inf1A-FP Haskell Installation
 
 ## Installing Haskell
-You may already have Haskell! That's excellent, you can skip right down to installing EPrelude. To check, open a terminal and type "`ghci --version`" to see if you have "`ghci`" already installed on your computer. If not, install by following the link below and picking the **correct version** for your OS (Windows, OS X for Mac, Linux). Choose the **minimal installation**.:
-
+You may already have Haskell! That's excellent, you can skip right down to installing EPrelude. To check, open a terminal and type "`ghci --version`" to see if you have "`ghci`" already installed on your computer. If not, install by following the link below and picking the **correct version** for your OS (Windows, OS X for Mac, Linux). Choose the **minimal installation**.:  
 [https://www.haskell.org/downloads#minimal](https://www.haskell.org/downloads#minimal)  
 After following those instructions, congratulations! You have Haskell.
 
@@ -10,8 +9,7 @@ After following those instructions, congratulations! You have Haskell.
 With Haskell installed, you'll have a copy of Prelude, which is Haskell's standard library of useful functions. However, though Prelude is powerful, it is also complex. EPrelude is an alternative version of Prelude, containing simple and straightforward definitions of the standard functions with a restricted set of available types. It also automatically pretty-prints data structures, making it easier to read command-line output.
 
 ### Mac/(Possibly Linux) Instructions:
-To install EPrelude, follow the link below to get the zip file.
-
+To install EPrelude, follow the link below to get the zip file.  
 [EPrelude](https://github.com/MatthewMarmalade/e-prelude/archive/main.zip)  
 You should download a file named `e-prelude-master.zip`. Unzip this file, and navigate a terminal to the `e-prelude-main` folder (likely within your Downloads folder). At the terminal, within the folder, run the command below:  
 `$ sudo ./install.sh` *(This command will require root access.)*  
