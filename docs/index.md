@@ -1,11 +1,11 @@
 # Inf1A-FP Haskell Installation
 
-## Installing Haskell
+## 1. Installing Haskell
 You may already have Haskell! That's excellent, you can skip right down to installing EPrelude. To check, open a terminal and type "`ghci --version`" to see if you have "`ghci`" already installed on your computer. If not, install by following the link below and picking the **correct version** for your OS (Windows, OS X for Mac, Linux). Choose the **minimal installation**.  
 [https://www.haskell.org/downloads#minimal](https://www.haskell.org/downloads#minimal)  
 After following those instructions, congratulations! You have Haskell.
 
-## Installing EPrelude
+## 2. Installing EPrelude
 With Haskell installed, you'll have a copy of Prelude, which is Haskell's standard library of useful functions. However, though Prelude is powerful, it is also complex. EPrelude is an alternative version of Prelude, containing simple and straightforward definitions of the standard functions with a restricted set of available types. It also automatically pretty-prints data structures, making it easier to read command-line output.
 
 ### Mac (OS X)/(UNIX) Instructions:
@@ -24,7 +24,7 @@ To update EPrelude, download the newest version from the link above, follow the 
 ### Windows Instructions:
 *-Note: In progress. Awaits updates regarding the Tutorial4 question -MM 14 Feb 2021*
 
-## Installing Required Packages
+## 3. Installing Required Packages
 Several Tutorials will require the use of additional Haskell packages. There are several options for downloading these packages, detailed below.
 
 ### Cabal
