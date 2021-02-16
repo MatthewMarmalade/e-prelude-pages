@@ -15,8 +15,15 @@ You should download a file named `e-prelude-master.zip`. Unzip this file, and na
 `$ sudo ./install.sh` *(This command will require root access.)*  
 If it succeeded without any errors, you should be done! As a test, run the following command from a new terminal:  
 `$ edhci`  
-It should open up an interactive REPL with EPrelude loaded. Feel free to delete the `e-prelude-master` and `.zip` file. However, if you ever want to uninstall EPrelude, you can navigate to the same file (or re-download it if you've deleted it) and run the command below:  
-`$ sudo ./uninstall.sh` *(This command will require root access.)*  
+It should open up an interactive REPL with EPrelude loaded. As a further test, you can run the following command at the interactive prompt:  
+`*EPrelude> :type length`  
+You should get back the following:  
+`length :: [a] -> Integer`  
+
+### Uninstalling
+If you ever want to uninstall EPrelude, you can navigate to the same file (or re-download it if you've deleted it) and run the command below:  
+`$ sudo ./uninstall.sh` *(This command will require root access.)* 
+
 *-Note: Linux (and specifically DICE machine) hasn't been tested, nor has Windows with cygwn, though as the scripts are all UNIX-based there shouldn't be intractable difficulties -MM 14 Feb 2021*
 #### Updating EPrelude:
 To update EPrelude, download the newest version from the link above, follow the instructions for uninstalling and then reinstall.
