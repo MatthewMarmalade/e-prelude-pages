@@ -26,7 +26,7 @@ If you ever want to uninstall EPrelude, you can navigate to the same file (or re
 
 *-Note: Linux (and specifically DICE machine) hasn't been tested, nor has Windows with cygwn, though as the scripts are all UNIX-based there shouldn't be intractable difficulties -MM 14 Feb 2021*
 #### Updating EPrelude:
-To update EPrelude, download the newest version from the link above, follow the instructions for uninstalling and then reinstall.
+To update EPrelude, download the newest version from the link above, follow the instructions for installing again. You will be prompted before overwriting any of the old versions of files; confirm each overwrite to update.
 
 ## 3. Installing Required Packages
 Several Tutorials will require the use of additional Haskell packages. These packages are QuickCheck, for automatically checking your functions for errors in all Tutorials, and HTTP, for accessing webpages in Tutorial 4.
