@@ -5,18 +5,18 @@ You may already have Haskell! That's excellent, you can skip right down to Step 
 [https://www.haskell.org/downloads#minimal](https://www.haskell.org/downloads#minimal)  
 After following those instructions, congratulations! You have Haskell.
 
-## 2. Installing EPrelude
-With Haskell installed, you'll have a copy of Prelude, which is Haskell's standard library of useful functions. However, though Prelude is powerful, it is also complex. EPrelude is an alternative version of Prelude, containing simple and straightforward definitions of the standard functions with a restricted set of available types. It also automatically pretty-prints data structures, making it easier to read command-line output.
+## 2. Installing EdPrelude
+With Haskell installed, you'll have a copy of Prelude, which is Haskell's standard library of useful functions. However, though Prelude is powerful, it is also complex. EdPrelude is an alternative version of Prelude, containing simple and straightforward definitions of the standard functions with a restricted set of available types. It also automatically derives a pretty-printer for data structures, making it easier to read command-line output.
 
 ### Mac (OS X)/(UNIX) Instructions:
-To install EPrelude, follow the link below to get the zip file.  
-[EPrelude](https://github.com/MatthewMarmalade/e-prelude/archive/main.zip)  
+To install EdPrelude, follow the link below to get the zip file.  
+[EdPrelude Download](https://github.com/MatthewMarmalade/e-prelude/archive/main.zip)  
 You should download a file named `e-prelude-master.zip`. Unzip this file, and navigate a terminal to the `e-prelude-main` folder (likely within your Downloads folder). At the terminal, within the folder, run the command below:  
 `$ sudo ./install.sh` *(This command will require root access.)*  
 If it succeeded without any errors, you should be done! As a test, run the following command from a new terminal:  
 `$ edhci`  
-It should open up an interactive REPL with EPrelude loaded. As a further test, you can run the following command at the interactive prompt:  
-`*EPrelude> :type length`  
+It should open up an interactive REPL with EdPrelude loaded. As a further test, you can run the following command at the interactive prompt:  
+`*EdPrelude> :type length`  
 You should get back the following:  
 `length :: [a] -> Integer`  
 
