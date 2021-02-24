@@ -1,7 +1,7 @@
 # Inf1A-FP Haskell Installation
 
 ## 1. Installing Haskell
-You may already have Haskell! That's excellent, you can skip right down to Step 2, installing EPrelude. To check, open a terminal and type "`ghci --version`" to see if you have "`ghci`" already installed on your computer. If not, install by following the link below and picking the **correct version** for your OS (Windows, OS X for Mac, Linux). Choose the **minimal installation**.  
+You may already have Haskell! That's excellent, you can skip right down to Step 2, installing EdPrelude. To check, open a terminal and type "`ghci --version`" to see if you have "`ghci`" already installed on your computer. If not, install by following the link below and picking the **correct version** for your OS (Windows, OS X for Mac, Linux). Choose the **minimal installation**.  
 [https://www.haskell.org/downloads#minimal](https://www.haskell.org/downloads#minimal)  
 After following those instructions, congratulations! You have Haskell.
 
@@ -19,6 +19,7 @@ It should open up an interactive REPL with EdPrelude loaded. As a further test, 
 `*EdPrelude> :type length`  
 You should get back the following:  
 `length :: [a] -> Integer`  
+Demonstrating that you are using EdPrelude's definition of the length function compared to Prelude's.
 
 ### Uninstalling
 If you ever want to uninstall EPrelude, you can navigate to the same file (or re-download it if you've deleted it) and run the command below:  
