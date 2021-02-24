@@ -11,7 +11,7 @@ With Haskell installed, you'll have a copy of Prelude, which is Haskell's standa
 ### Mac (OS X)/(UNIX) Instructions:
 To install EdPrelude, follow the link below to get the zip file.  
 [EdPrelude Download](https://github.com/MatthewMarmalade/e-prelude/archive/main.zip)  
-You should download a file named `e-prelude-master.zip`. Unzip this file, and navigate a terminal to the `e-prelude-main` folder (likely within your Downloads folder). At the terminal, within the folder, run the command below:  
+You should download a file named `e-prelude-main.zip`. Unzip this file, and navigate a terminal to the `e-prelude-main` folder (likely within your Downloads folder). At the terminal, within the folder, run the command below:  
 `$ sudo ./install.sh` *(This command will require root access.)*  
 If it succeeded without any errors, you should be done! As a test, run the following command from a new terminal:  
 `$ edhci`  
